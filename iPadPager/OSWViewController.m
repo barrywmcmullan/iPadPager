@@ -14,6 +14,8 @@
 
 @implementation OSWViewController
 
+@synthesize mainScrollView = _mainScrollView;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

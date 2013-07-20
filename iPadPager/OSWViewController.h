@@ -10,4 +10,6 @@
 
 @interface OSWViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIScrollView *mainScrollView;
+
 @end
