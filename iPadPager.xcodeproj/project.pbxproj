@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3DEE6A1179A59AB00DCCB3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3DEE6A0179A59AB00DCCB3B /* UIKit.framework */; };
+		F3DEE6A3179A59AB00DCCB3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3DEE6A2179A59AB00DCCB3B /* Foundation.framework */; };
+		F3DEE6A5179A59AB00DCCB3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3DEE6A4179A59AB00DCCB3B /* CoreGraphics.framework */; };
+		F3DEE6AB179A59AB00DCCB3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3DEE6A9179A59AB00DCCB3B /* InfoPlist.strings */; };
+		F3DEE6AD179A59AB00DCCB3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DEE6AC179A59AB00DCCB3B /* main.m */; };
+		F3DEE6B1179A59AB00DCCB3B /* OSWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DEE6B0179A59AB00DCCB3B /* OSWAppDelegate.m */; };
+		F3DEE6B3179A59AB00DCCB3B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DEE6B2179A59AB00DCCB3B /* Default.png */; };
+		F3DEE6B5179A59AB00DCCB3B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DEE6B4179A59AB00DCCB3B /* Default@2x.png */; };
+		F3DEE6B7179A59AB00DCCB3B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DEE6B6179A59AB00DCCB3B /* Default-568h@2x.png */; };
+		F3DEE6BA179A59AB00DCCB3B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DEE6B8179A59AB00DCCB3B /* MainStoryboard.storyboard */; };
+		F3DEE6BD179A59AB00DCCB3B /* OSWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DEE6BC179A59AB00DCCB3B /* OSWViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3DEE69D179A59AB00DCCB3B /* iPadPager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadPager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DEE6A0179A59AB00DCCB3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3DEE6A2179A59AB00DCCB3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3DEE6A4179A59AB00DCCB3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3DEE6A8179A59AB00DCCB3B /* iPadPager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPadPager-Info.plist"; sourceTree = "<group>"; };
+		F3DEE6AA179A59AB00DCCB3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3DEE6AC179A59AB00DCCB3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3DEE6AE179A59AB00DCCB3B /* iPadPager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPadPager-Prefix.pch"; sourceTree = "<group>"; };
+		F3DEE6AF179A59AB00DCCB3B /* OSWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSWAppDelegate.h; sourceTree = "<group>"; };
+		F3DEE6B0179A59AB00DCCB3B /* OSWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSWAppDelegate.m; sourceTree = "<group>"; };
+		F3DEE6B2179A59AB00DCCB3B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F3DEE6B4179A59AB00DCCB3B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F3DEE6B6179A59AB00DCCB3B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F3DEE6B9179A59AB00DCCB3B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F3DEE6BB179A59AB00DCCB3B /* OSWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSWViewController.h; sourceTree = "<group>"; };
+		F3DEE6BC179A59AB00DCCB3B /* OSWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSWViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3DEE69A179A59AA00DCCB3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DEE6A1179A59AB00DCCB3B /* UIKit.framework in Frameworks */,
+				F3DEE6A3179A59AB00DCCB3B /* Foundation.framework in Frameworks */,
+				F3DEE6A5179A59AB00DCCB3B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3DEE694179A59AA00DCCB3B = {
+			isa = PBXGroup;
+			children = (
+				F3DEE6A6179A59AB00DCCB3B /* iPadPager */,
+				F3DEE69F179A59AB00DCCB3B /* Frameworks */,
+				F3DEE69E179A59AB00DCCB3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3DEE69E179A59AB00DCCB3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3DEE69D179A59AB00DCCB3B /* iPadPager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3DEE69F179A59AB00DCCB3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3DEE6A0179A59AB00DCCB3B /* UIKit.framework */,
+				F3DEE6A2179A59AB00DCCB3B /* Foundation.framework */,
+				F3DEE6A4179A59AB00DCCB3B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3DEE6A6179A59AB00DCCB3B /* iPadPager */ = {
+			isa = PBXGroup;
+			children = (
+				F3DEE6AF179A59AB00DCCB3B /* OSWAppDelegate.h */,
+				F3DEE6B0179A59AB00DCCB3B /* OSWAppDelegate.m */,
+				F3DEE6B8179A59AB00DCCB3B /* MainStoryboard.storyboard */,
+				F3DEE6BB179A59AB00DCCB3B /* OSWViewController.h */,
+				F3DEE6BC179A59AB00DCCB3B /* OSWViewController.m */,
+				F3DEE6A7179A59AB00DCCB3B /* Supporting Files */,
+			);
+			path = iPadPager;
+			sourceTree = "<group>";
+		};
+		F3DEE6A7179A59AB00DCCB3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3DEE6A8179A59AB00DCCB3B /* iPadPager-Info.plist */,
+				F3DEE6A9179A59AB00DCCB3B /* InfoPlist.strings */,
+				F3DEE6AC179A59AB00DCCB3B /* main.m */,
+				F3DEE6AE179A59AB00DCCB3B /* iPadPager-Prefix.pch */,
+				F3DEE6B2179A59AB00DCCB3B /* Default.png */,
+				F3DEE6B4179A59AB00DCCB3B /* Default@2x.png */,
+				F3DEE6B6179A59AB00DCCB3B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3DEE69C179A59AA00DCCB3B /* iPadPager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3DEE6C0179A59AB00DCCB3B /* Build configuration list for PBXNativeTarget "iPadPager" */;
+			buildPhases = (
+				F3DEE699179A59AA00DCCB3B /* Sources */,
+				F3DEE69A179A59AA00DCCB3B /* Frameworks */,
+				F3DEE69B179A59AA00DCCB3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPadPager;
+			productName = iPadPager;
+			productReference = F3DEE69D179A59AB00DCCB3B /* iPadPager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3DEE695179A59AA00DCCB3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OSW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Orsa Software Inc.";
+			};
+			buildConfigurationList = F3DEE698179A59AA00DCCB3B /* Build configuration list for PBXProject "iPadPager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3DEE694179A59AA00DCCB3B;
+			productRefGroup = F3DEE69E179A59AB00DCCB3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3DEE69C179A59AA00DCCB3B /* iPadPager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3DEE69B179A59AA00DCCB3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DEE6AB179A59AB00DCCB3B /* InfoPlist.strings in Resources */,
+				F3DEE6B3179A59AB00DCCB3B /* Default.png in Resources */,
+				F3DEE6B5179A59AB00DCCB3B /* Default@2x.png in Resources */,
+				F3DEE6B7179A59AB00DCCB3B /* Default-568h@2x.png in Resources */,
+				F3DEE6BA179A59AB00DCCB3B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3DEE699179A59AA00DCCB3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DEE6AD179A59AB00DCCB3B /* main.m in Sources */,
+				F3DEE6B1179A59AB00DCCB3B /* OSWAppDelegate.m in Sources */,
+				F3DEE6BD179A59AB00DCCB3B /* OSWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3DEE6A9179A59AB00DCCB3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3DEE6AA179A59AB00DCCB3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3DEE6B8179A59AB00DCCB3B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3DEE6B9179A59AB00DCCB3B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3DEE6BE179A59AB00DCCB3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F3DEE6BF179A59AB00DCCB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3DEE6C1179A59AB00DCCB3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPadPager/iPadPager-Prefix.pch";
+				INFOPLIST_FILE = "iPadPager/iPadPager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3DEE6C2179A59AB00DCCB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPadPager/iPadPager-Prefix.pch";
+				INFOPLIST_FILE = "iPadPager/iPadPager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3DEE698179A59AA00DCCB3B /* Build configuration list for PBXProject "iPadPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DEE6BE179A59AB00DCCB3B /* Debug */,
+				F3DEE6BF179A59AB00DCCB3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3DEE6C0179A59AB00DCCB3B /* Build configuration list for PBXNativeTarget "iPadPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DEE6C1179A59AB00DCCB3B /* Debug */,
+				F3DEE6C2179A59AB00DCCB3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3DEE695179A59AA00DCCB3B /* Project object */;
+}
