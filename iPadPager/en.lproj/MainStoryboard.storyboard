@@ -15,12 +15,34 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="BBb-qi-FcX">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" id="BWa-Hr-EuL">
+                                        <rect key="frame" x="343" y="948" width="82" height="36"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="currentPageIndicatorTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="pageControllerChanged:" destination="2" eventType="touchUpInside" id="oKt-Eb-Z8E"/>
+                                        </connections>
+                                    </pageControl>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="8Zd-lx-FuK">
+                                        <rect key="frame" x="20" y="20" width="728" height="900"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="2" id="2vb-hn-UYe"/>
+                                        </connections>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.89019614459999996" green="0.89411771299999998" blue="0.90196084980000002" alpha="1" colorSpace="deviceRGB"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="mainScrollView" destination="BBb-qi-FcX" id="VBf-3e-pGi"/>
+                        <outlet property="pageControll" destination="BWa-Hr-EuL" id="c6z-Sb-4c6"/>
+                        <outlet property="pagingScrollView" destination="8Zd-lx-FuK" id="jdL-BW-OS0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
@@ -32,7 +54,11 @@
         <class className="OSWViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/OSWViewController.h"/>
             <relationships>
+                <relationship kind="action" name="pageControllerChanged:" candidateClass="UIPageControl"/>
                 <relationship kind="outlet" name="mainScrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="pageControll" candidateClass="UIPageControl"/>
+                <relationship kind="outlet" name="pagingScrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="portraitPageView" candidateClass="UIView"/>
             </relationships>
         </class>
     </classes>

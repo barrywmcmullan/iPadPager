@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3113AC3179BC1EC00E59605 /* PortriatPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3113AC2179BC1EC00E59605 /* PortriatPageView.xib */; };
 		F3DEE6A1179A59AB00DCCB3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3DEE6A0179A59AB00DCCB3B /* UIKit.framework */; };
 		F3DEE6A3179A59AB00DCCB3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3DEE6A2179A59AB00DCCB3B /* Foundation.framework */; };
 		F3DEE6A5179A59AB00DCCB3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3DEE6A4179A59AB00DCCB3B /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3113AC2179BC1EC00E59605 /* PortriatPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortriatPageView.xib; sourceTree = "<group>"; };
 		F3DEE69D179A59AB00DCCB3B /* iPadPager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadPager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DEE6A0179A59AB00DCCB3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F3DEE6A2179A59AB00DCCB3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +88,7 @@
 				F3DEE6AF179A59AB00DCCB3B /* OSWAppDelegate.h */,
 				F3DEE6B0179A59AB00DCCB3B /* OSWAppDelegate.m */,
 				F3DEE6B8179A59AB00DCCB3B /* MainStoryboard.storyboard */,
+				F3113AC2179BC1EC00E59605 /* PortriatPageView.xib */,
 				F3DEE6BB179A59AB00DCCB3B /* OSWViewController.h */,
 				F3DEE6BC179A59AB00DCCB3B /* OSWViewController.m */,
 				F3DEE6A7179A59AB00DCCB3B /* Supporting Files */,
@@ -164,6 +167,7 @@
 				F3DEE6B5179A59AB00DCCB3B /* Default@2x.png in Resources */,
 				F3DEE6B7179A59AB00DCCB3B /* Default-568h@2x.png in Resources */,
 				F3DEE6BA179A59AB00DCCB3B /* MainStoryboard.storyboard in Resources */,
+				F3113AC3179BC1EC00E59605 /* PortriatPageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +305,7 @@
 				F3DEE6C2179A59AB00DCCB3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
